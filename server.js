@@ -25,7 +25,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://udemy-front-alpha.vercel.app/", // عدله لو شغال بـ دومين تاني
+    origin: "https://udemy-front-alpha.vercel.app", // عدله لو شغال بـ دومين تاني
     credentials: true,
   })
 );
